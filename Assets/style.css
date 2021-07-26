@@ -80,3 +80,18 @@ footer {
     font-size: 20px;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    #textbox {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #submit {
+        position: absolute;
+        background-image: url('ButtonImage.jpg');
+        background-size: cover;
+        font-size: 12px;
+    }
+}
