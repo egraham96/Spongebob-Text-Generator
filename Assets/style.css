@@ -68,7 +68,7 @@ footer {
 }
 
 #reset {
-    background-image: url('ResetButtonImage.png');
+    background-image: url("ResetButtonImage.png");
     background-size: cover;
     width: 75px;
     height: 75px;
