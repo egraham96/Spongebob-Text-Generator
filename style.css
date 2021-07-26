@@ -1,0 +1,82 @@
+body {
+    background-color: rgba(255, 238, 0, 0.877);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: KrabbyPatty;
+    src: url('KrabbyPatty.ttf');
+}
+
+h1 {
+    font-family: KrabbyPatty;
+    text-align: center;
+    font-size: 48px;
+}
+
+#textbox {
+    align-self: center;
+    font-family: KrabbyPatty;
+}
+
+#form {
+    font-family: KrabbyPatty;
+    font-size: 24px;
+}
+
+#submit {
+    position: absolute;
+    top: 115px;
+    left: 1083px;
+    width: 75px;
+    height: 75px;
+    background-image: url('ButtonImage.jpg');
+    background-size: cover;
+    font-size: 12px;
+}
+
+input {
+    height: 50px;
+}
+
+#errorbox {
+    font-family: KrabbyPatty;
+    text-align: center;
+    font-size: 48px;
+}
+
+#picturebox {
+    color: white;
+    word-wrap: break-word;
+    font-family: KrabbyPatty;
+    text-align: center;
+    font-size: 48px;
+    align-self: center;
+    width: 700px;
+    height: 600px;
+    background-image: url("MemeImage.jpg");
+    background-size: 700px 600px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reset {
+    background-image: url('ResetButtonImage.png');
+    background-size: cover;
+    width: 75px;
+    height: 75px;
+}
+
+#footerh1 {
+    font-family: KrabbyPatty;
+    align-self: center;
+    font-size: 20px;
+    text-align: center;
+}
